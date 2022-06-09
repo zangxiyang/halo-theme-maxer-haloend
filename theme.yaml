@@ -1,12 +1,12 @@
 # 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
-id: halo_quickstarter
-name: QuickStarter
+id: halo_maxer
+name: Maxer
 author:
-  name: halo-dev
-  website: https://halo.run
-description: Quick starter theme for halo
+  name: Seale
+  website: https://imsle.com
+description: 一个基于 Nuxt SSR 渲染，前后端分离的Halo主题；如梦一般，随风而立。
 logo: https://avatars.githubusercontent.com/u/48195280?s=200&v=4
-website: https://github.com/halo-dev/halo-theme-quick-starter
-repo: https://github.com/halo-dev/halo-theme-quick-starter
+website: https://imsle.com
+repo: https://github.com/zangxiyang/halo-theme-maxer-haloend
 version: 1.0.0
 require: 1.4.2
