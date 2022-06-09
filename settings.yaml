@@ -2,8 +2,17 @@
 genernal:
   label: 基本设置
   items:
+    # 博客标题
+    blog_title:
+      name: blog_title
+      label: 博客标题
+      type: text
+      default: 'Maxer主题'
+      description: 设置博客标题，这将显示到网站主页和各个页面的后缀上
+
     index_notice:
       name: index_notice
       label: 首页公告
       type: textarea
       default: '欢迎来到我的博客'
+    
