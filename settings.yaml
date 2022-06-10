@@ -16,7 +16,12 @@ genernal:
       type: attachment
       placeholder: '请上传图标'           
       description: 图标大小请确认为16*16或32*32以达到最佳效果           
-
+    # 文字LOGO
+    textLogo:
+      name: textLogo
+      label: 文字LOGO
+      type: text
+      description: 设置header上的文字logo，建议英文以达到最佳效果
     indexNotice:
       name: indexNotice
       label: 首页公告
@@ -25,12 +30,7 @@ genernal:
 SEO:
   label: SEO设置
   items:
-    # 首页标题
-    homeTitle:
-      name: homeTitle
-      label: 首页标题
-      type: text
-      description: 设置首页的标题，更利于SEO，如果未填写，则默认为博客标题
+    # 描述
     description:
       name: description
       label: description设置
