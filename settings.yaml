@@ -24,7 +24,7 @@ genernal:
       default: '欢迎来到我的博客'
     
     label: SEO设置
-    items:
+      items:
       # 首页标题
       homeTitle:
         name: homeTitle
