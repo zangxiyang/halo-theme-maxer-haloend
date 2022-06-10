@@ -33,12 +33,12 @@ SEO:
       description: 设置首页的标题，更利于SEO，如果未填写，则默认为博客标题
     description:
       name: description
-      label: Meta中的描述
+      label: description设置
       type: textarea
       description:  设置页面的描述，更利于SEO
     # 关键词
     keywords:
       name: keywords
-      label: 关键词
+      label: 关键词设置
       type: textarea
       description: 请用逗号进行分隔
