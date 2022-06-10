@@ -31,6 +31,11 @@ SEO:
       label: 首页标题
       type: text
       description: 设置首页的标题，更利于SEO，如果未填写，则默认为博客标题
+    description:
+      name: description
+      label: Meta中的描述
+      type: textarea
+      description:  设置页面的描述，更利于SEO
     # 关键词
     keywords:
       name: keywords
