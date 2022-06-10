@@ -1,39 +1,40 @@
 # 配置详情请参考：https://docs.halo.run/developer-guide/theme/config-files
 genernal:
-  label: 基本设置
-  items:
-    # 博客标题
-    blogTitle:
-      name: blogTitle
-      label: 博客标题
-      type: text
-      default: 'Maxer主题'
-      description: 设置博客标题，这将显示到网站主页和各个页面的后缀上
-    # 网站图标
-    favIcon:
-      name: favIcon
-      label: 设置favIcon
-      type: attachment
-      placeholder: '请上传图标'           
-      description: 图标大小请确认为16*16或32*32以达到最佳效果           
-
-    indexNotice:
-      name: indexNotice
-      label: 首页公告
-      type: textarea
-      default: '欢迎来到我的博客'
-    
-    label: SEO设置
+    group1:
+      label: 基本设置
       items:
-      # 首页标题
-      homeTitle:
-        name: homeTitle
-        label: 首页标题
-        type: text
-        description: 设置首页的标题，更利于SEO，如果未填写，则默认为博客标题
-      # 关键词
-      keywords:
-        name: keywords
-        label: 关键词
-        type: textarea
-        description: 请用逗号进行分隔
+        # 博客标题
+        blogTitle:
+          name: blogTitle
+          label: 博客标题
+          type: text
+          default: 'Maxer主题'
+          description: 设置博客标题，这将显示到网站主页和各个页面的后缀上
+        # 网站图标
+        favIcon:
+          name: favIcon
+          label: 设置favIcon
+          type: attachment
+          placeholder: '请上传图标'           
+          description: 图标大小请确认为16*16或32*32以达到最佳效果           
+
+        indexNotice:
+          name: indexNotice
+          label: 首页公告
+          type: textarea
+          default: '欢迎来到我的博客'
+    group2:
+      label: SEO设置
+      items:
+        # 首页标题
+        homeTitle:
+          name: homeTitle
+          label: 首页标题
+          type: text
+          description: 设置首页的标题，更利于SEO，如果未填写，则默认为博客标题
+        # 关键词
+        keywords:
+          name: keywords
+          label: 关键词
+          type: textarea
+          description: 请用逗号进行分隔
